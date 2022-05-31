@@ -1,4 +1,4 @@
-# SendGridEmail
+<h1 align="center"> SendGridEmail </h1>
 Projeto para envio de email através do SendGrid
 
 ### Passos para rodar o projeto localmente
