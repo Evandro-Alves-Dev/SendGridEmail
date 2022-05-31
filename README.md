@@ -3,8 +3,8 @@ Projeto para envio de email através do SendGrid
 
 ### Passos para rodar o projeto localmente
 1 - Depois de clonar o projeto será necessario criar um cadastro na pataforma sendgrid (https://sendgrid.com/marketing/sendgrid-services-pt/), tutorial para cadastro no site (https://www.youtube.com/watch?v=06M3lZzZEMY).</br>
-2 - No arquivo application.properties colocar a variavel de ambiente onde esta guardado a chave gerada pelo sendgrid ou colocar a chave direto no arquivo
-3 - Rodar o projeto e utilizar o postman para fazer a chamada.
+2 - No arquivo application.properties colocar a variavel de ambiente onde esta guardado a chave gerada pelo sendgrid ou colocar a chave direto no arquivo.</br>
+3 - Rodar o projeto e utilizar o postman para fazer a chamada.</br>
 
 curl --location --request POST 'http://localhost:8080/emails' \
 --header 'Content-Type: application/json' \
