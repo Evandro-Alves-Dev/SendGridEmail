@@ -23,6 +23,7 @@ public class EmailService {
 
     @Autowired
     private SendGrid sendGrid;
+
     public void sendEmail(EmailDTO emailDTO) throws EmailException {
         Email from = new Email( emailDTO.getFromEmail(), emailDTO.getFromName());
         Email to = new Email(emailDTO.getTo());
